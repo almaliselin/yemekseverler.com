@@ -10,15 +10,56 @@
 
 <body>
     <header>
-        <div id="anabaslık">
-            <h1 style="margin-bottom: 10px;color: orangered;">Etli Yemek Tarifleri</h1>
-            <summary style="font-size: large;">Leziz bir akşam yemeğine konuk olabilecek et yemekleri tarifi, tamamı
-                denenmiş birçok farklı çeşidiyle bu kategoride birleşiyor. Farklı pişirme teknikleriyle balık ve deniz
-                ürünleri, yörelere has kebap tarifleri, kırmızı et tarifleri, köfte tarifleri, sakatat tarifleri ve
-                tavuk yemekleri birbirinden lezzetli halleriyle burada.</summary>
-        </div>
-        <hr>
+        <table>
+            <tr>
+                <td>
+                    <nav>
+                        <a href="anasayfa.html" style="text-decoration: none;color: peru">Anasayfa</a>
+                        /
+                        <a href="kayıt_girisyapma.html" style="text-decoration: none;color: peru">Kayıt Ol/GirişYap</a>
+                    </nav>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="anabaslık">
+                        <h1 style="margin-bottom: 10px;color: orangered;">Etli Yemek Tarifleri</h1>
+                        <summary style="font-size: large;">Leziz bir akşam yemeğine konuk olabilecek et yemekleri
+                            tarifi, tamamı
+                            denenmiş birçok farklı çeşidiyle bu kategoride birleşiyor. Farklı pişirme teknikleriyle
+                            balık ve deniz
+                            ürünleri, yörelere has kebap tarifleri, kırmızı et tarifleri, köfte tarifleri, sakatat
+                            tarifleri ve
+                            tavuk yemekleri birbirinden lezzetli halleriyle burada.</summary>
+                    </div>
+                </td>
+                <td>
+                    <aside>
+                        <nav>
+                            <ul style="list-style-type: none;">
+                                <li>
+                                    <a href="tatlilar.html" style="text-decoration: none;color: peru">Tatlılar</a>
+                                </li>
+                                <li>
+                                    <a href="etliyemekler.html" style="text-decoration: none;color: peru">Etli
+                                        Yemekler</a>
+                                </li>
+                                <li>
+                                    <a href="zeytinyaglılar.html"
+                                        style="text-decoration: none;color: peru">Zeytinyağlılar</a>
+                                </li>
+                                <li>
+                                    <a href="hamurisi.html" style="text-decoration: none;color: peru">Hamurişi</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>
+                </td>
+            </tr>
 
+        </table>
+        <hr>
     </header>
 
     <aside>
@@ -307,6 +348,71 @@
         </table>
 
     </main>
+
+    <footer>
+        <hr>
+        <table>
+            <tr style="vertical-align: top;">
+                <td>
+                    <nav>
+                        <label for="sosyalmedya">
+                            <h4>Sosyal Medya</h4>
+                        </label>
+                        <a href="#" target="_blank" id="sosyalmedya">
+                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\insta.png" alt="İnstagram"
+                                style="width: 80px;">
+                        </a>
+                        <a href="#" target="_blank" id="sosyalmedya">
+                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\face.png" alt="Facebook"
+                                style="width: 80px;">
+                        </a>
+                        <a href="#" target="_blank" id="sosyalmedya">
+                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\pinterest.png" alt="Pinterest"
+                                style="width: 80px;">
+                        </a>
+                        <a href="#" target="_blank" id="sosyalmedya">
+                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\youtube.png" alt="YouTube"
+                                style="width: 80px;">
+                        </a>
+                    </nav>
+                </td>
+                <td style="width: 15px;"></td>
+                <td>
+                    <section>
+                        <form action="#">
+                            <b>Email yazılarımıza abone olmak için</b>
+                            <div>
+                                <label for="eposta2">Emailiniz</label>
+                                <input type="email" id="eposta2" placeholder="Emailiniz">
+                            </div>
+                            <button type="submit" onclick="alert('Hoşgeldiniz')">Kayıt Ol!</button>
+                        </form>
+                    </section>
+                </td>
+                <td style="width: 15px;"></td>
+                <td>
+                    <section>
+                        <form action="#">
+                            <b>Geri dönüşlerinizi iletebilirsiniz!</b>
+                            <div>
+                                <label for="isim">İsminiz</label>
+                                <input type="text" id="isim" placeholder="İsminiz">
+                            </div>
+                            <div>
+                                <label for="eposta">Emailiniz</label>
+                                <input type="email" id="eposta" placeholder="Emailiniz">
+                            </div>
+                            <div>
+                                <label for="mesaj">Mesajınız</label>
+                                <input type="text" id="mesaj" placeholder="Mesajınız">
+                            </div>
+                            <button type="submit">Gönder</button>
+                        </form>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </footer>
 </body>
 
 </html>
