@@ -9,10 +9,13 @@
 </head>
 
 <body>
+    <!--header kısmı tablo ile düzenlendi-->
     <header>
+        <!--iki tane nav ve bir ana başlık kısmı var-->
         <table>
             <tr>
                 <td>
+                    <!--iki genel nav burada anasayfaya dönmek ve giriş formuna gitmek için, linklerin görünüşlerini de değiştirdim (renk ve altında çizgi yok)-->
                     <nav>
                         <a href="anasayfa.html" style="text-decoration: none;color: peru">Anasayfa</a>
                         /
@@ -22,6 +25,7 @@
                 <td></td>
             </tr>
             <tr>
+                <!--ana başlık kısmı burada, sayfanın ana başlığı içerisinde ve rengiyle yerini ayarlamaya çalıştım. ayrıca sayfaya dair bir de özet gibi bir açıklamayı da bütün olarka yerleştirdim-->
                 <td>
                     <div id="anabaslık">
                         <h1 style="margin-bottom: 10px;color: orangered;">Tatlı Tarifleri</h1>
@@ -31,6 +35,7 @@
                     </div>
                 </td>
                 <td>
+                    <!--burada da websitenin kategorilerinin olduğu nav var, diğer sayfalara ait linkleri sırasız liste olarak yerleştirdim. aside etiketini nav'ın ana parça olarak gözükmemesi için ekledim (seo)-->
                     <aside>
                         <nav>
                             <ul style="list-style-type: none;">
@@ -53,11 +58,11 @@
                     </aside>
                 </td>
             </tr>
-
         </table>
         <hr>
     </header>
-
+    <!--buradaki aside kısmında sayfanın ana içeriği olmayan içerikler var-->
+    <!--tablo içinde tasarım yaptım, resimler tıklandığında sayfaya gidecek olarak düzenledim, altlarında başlıkları var onlar da link-->
     <aside>
         <table>
             <tr style="vertical-align: top;">
@@ -121,8 +126,10 @@
 
 
     <main>
+        <!--ana içerik burası h1'i header da kullandığım için burada h2 tercih ettim-->
         <h2 style="color: orange;">Popüler Tatlı Tarifleri</h2>
         <hr>
+        <!--bu navı alt taraftaki içerikler için içindekiler olarak ayarladım-->
         <nav>
             <a href="#tatli1" style="text-decoration: none; color:peru; font-size: large;">Churros</a>
             /
@@ -133,6 +140,10 @@
             <a href="#tatli4" style="text-decoration: none; color:peru; font-size: large;">Sufle</a>
         </nav>
         <hr>
+        <!--bu tabloda tariflerin ismi, videoları, malzeme listeleri ve yapılışları var-->
+        <!--videoları iframe ile youtube'dan aldım-->
+        <!--malzemeleri sırasız liste ile düzenledim, madde resmini de kaldırdım-->
+        <!--yapılışlarını da paragraf paragraf ayırarak tabloya ekledim-->
         <table>
             <tbody>
                 <tr style="vertical-align: middle;">
@@ -350,6 +361,11 @@
 
     <footer>
         <hr>
+        <!--footer kısmını tablo ile düzenledim-->
+        <!--ilk kısımda sosyal medya linkleri nav var, linkleri resim olarak ekledim, png kullandım-->
+        <!--ikinci kısımda email newsletter için abonelik var, email formunu kullandım, ayrıca düğme eklerken onclick kullanıp tıkladığında sayfada hoşgeldiniz mesajı çıkmasını sağladım-->
+        <!--üçüncü kısımda geri dönüş için inssanların mesaj atabileceği bir kısım yaptım. text, email formları kullandım. Geniş kutunun nasıl yapılacağını unuttum orası eksik-->
+        <!--buradaki düğme düz submit-->
         <table>
             <tr style="vertical-align: top;">
                 <td>
