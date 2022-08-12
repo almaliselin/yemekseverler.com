@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt ol!/Giriş yap! | yemekseverler.com</title>
+</head>
+
+<body>
+    <h1><b>Lütfen Formu Eksiksiz Doldurunuz.</b></h1>
+    <hr>
+    <h2>Hesap Bilgileriniz</h2>
+    <!--form örneği-->
+    <!--form içerikleri tablo olarak düzenlendi-->
+    <!--text formu kullanıldı-->
+    <form action="#">
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="kullaniciadi">Kullanıcı Adı:</label></td>
+                    <td style="width: 30px;"></td>
+                    <td><input type="text" id="kullaniciadi" placeholder="Kullanıcı adı giriniz."></td>
+                </tr>
+                <tr>
+                    <td><label for="eposta">E-Posta:</label></td>
+                    <td style="width: 30px;"></td>
+                    <td><input type="email" id="eposta" placeholder="E-postanızı giriniz."></td>
+                </tr>
+                <tr>
+                    <td><label for="sifre">Parola:</label></td>
+                    <td style="width: 30px;"></td>
+                    <td><input type="password" id="sifre" placeholder="Parolanızı giriniz."></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+
+    <h2>Kişisel Bilgileriniz</h2>
+
+    <form action="#">
+        <!--tablo ile düzenlenerek form oluşturuldu-->
+        <!--text, option, radio, checkbox formları var-->
+        <!--tablonun son satırında da kaydet ve temizle butonu var-->
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="isim">Adınız:</label></td>
+                    <td style="width: 40px;"></td>
+                    <td><input type="text" id="isim" placeholder="Adınızı giriniz."></td>
+                </tr>
+                <tr>
+                    <td><label for="soyisim">Soyadınız:</label></td>
+                    <td></td>
+                    <td><input type="text" id="soyisim" placeholder="Soyadınızı giriniz."></td>
+                </tr>
+                <tr>
+                    <td><label for="sehir">Şehir</label></td>
+                    <td></td>
+                    <td>
+                        <select id="sehir">
+                            <option value="34">İstanbul</option>
+                            <option value="56">Sivas</option>
+                            <option value="46">Kahramanmaraş</option>
+                            <option>Ankara</option>
+                            <option>İzmir</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Cinsiyetiniz:</p>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="erkek">Erkek</label>
+                        <input type="radio" name="cinsiyet" id="erkek">
+                        <label for="kadın">Kadın</label>
+                        <input type="radio" name="cinsiyet" id="kadın">
+                    </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td>
+                        <div>
+                            <button type="submit">Kaydet</button>
+                            <button type="reset">Temizle</button>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
