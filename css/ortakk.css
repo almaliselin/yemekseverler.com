@@ -1,0 +1,22 @@
+.linkler {
+    text-decoration: none;
+    color: peru;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+summary {
+    font-size: large;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: orange
+}
+
+h2 {
+    color: orange;
+}
