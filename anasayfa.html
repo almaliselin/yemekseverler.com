@@ -7,144 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anasayfa | yemekseverler.com</title>
     <link rel="stylesheet" href="C:\Users\Lenovo\Desktop\yemekseverler.com\css\ortakk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/315a16516c.js"></script>
 </head>
 
 <body>
 
-    <!--header kısmı tablo ile düzenlendi-->
+
     <header>
         <!--iki tane nav ve bir ana başlık kısmı var-->
-        <table>
-            <tr>
-                <td>
-                    <nav>
-                        <!--iki genel nav burada anasayfaya dönmek ve giriş formuna gitmek için, linklerin görünüşlerini de değiştirdim (renk ve altında çizgi yok)-->
-                        <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\anasayfa.html" class="linkler">Anasayfa</a>
-                        /
-                        <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\kayıt_girisyapma.html" class="linkler">Kayıt
-                            Ol/GirişYap</a>
-                    </nav>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <!--ana başlık kısmı burada, sayfanın ana başlığı içerisinde ve rengiyle yerini ayarlamaya çalıştım. ayrıca sayfaya dair bir de özet gibi bir açıklamayı da bütün olarka yerleştirdim-->
-                <td>
-                    <div id="anabaslık">
-                        <h1>yemekseverler.com</h1>
-                        <summary>Leziz bir akşam yemeğine konuk olabilecek et yemekleri
-                            tarifi, tamamı
-                            denenmiş birçok farklı çeşidiyle bu kategoride birleşiyor. Farklı pişirme teknikleriyle
-                            balık ve deniz
-                            ürünleri, yörelere has kebap tarifleri, kırmızı et tarifleri, köfte tarifleri, sakatat
-                            tarifleri ve
-                            tavuk yemekleri birbirinden lezzetli halleriyle burada.</summary>
-                    </div>
-                </td>
-                <td>
-                    <!--burada da websitenin kategorilerinin olduğu nav var, diğer sayfalara ait linkleri sırasız liste olarak yerleştirdim. aside etiketini nav'ın ana parça olarak gözükmemesi için ekledim (seo)-->
-                    <aside>
-                        <nav>
-                            <ul style="list-style-type: none;">
-                                <li>
-                                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\tatlılar\tatlilar.html"
-                                        class="linkler">Tatlılar</a>
-                                </li>
-                                <li>
-                                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\etliler\etliyemekler.html"
-                                        class="linkler">Etli
-                                        Yemekler</a>
-                                </li>
-                                <li>
-                                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\zeytinyaglılar.html"
-                                        class="linkler">Zeytinyağlılar</a>
-                                </li>
-                                <li>
-                                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\hamurisi.html"
-                                        class="linkler">Hamurişi</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </aside>
-                </td>
-            </tr>
-
-        </table>
-        <hr>
+        <nav id="navlink">
+            <!--iki genel nav burada anasayfaya dönmek ve giriş formuna gitmek için, linklerin görünüşlerini de değiştirdim (renk ve altında çizgi yok)-->
+            <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\anasayfa.html" class="linkler">Anasayfa</a>
+            <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\kayıt_girisyapma.html" class="linkler">Kayıt
+                Ol/GirişYap</a>
+        </nav>
     </header>
+    <!--ana başlık kısmı burada, sayfanın ana başlığı içerisinde ve rengiyle yerini ayarlamaya çalıştım. ayrıca sayfaya dair bir de özet gibi bir açıklamayı da bütün olarka yerleştirdim-->
+    <main>
+        <div id="anabaslık">
+            <h1>yemekseverler.com</h1>
+            <summary>Leziz bir akşam yemeğine konuk olabilecek et yemekleri
+                tarifi, tamamı
+                denenmiş birçok farklı çeşidiyle bu kategoride birleşiyor. Farklı pişirme teknikleriyle
+                balık ve deniz
+                ürünleri, yörelere has kebap tarifleri, kırmızı et tarifleri, köfte tarifleri, sakatat
+                tarifleri ve
+                tavuk yemekleri birbirinden lezzetli halleriyle burada.</summary>
+        </div>
+
+    </main>
     <!--buradaki aside kısmında sayfanın ana içeriği olmayan içerikler var-->
     <!--tablo içinde tasarım yaptım, resimler tıklandığında sayfaya gidecek olarak düzenledim, altlarında başlıkları var onlar da link-->
-    <aside>
-        <table>
-            <tr style="vertical-align: top;">
-                <h3>Trend Tarifler</h3>
-            </tr>
-            <tr style="vertical-align: top;">
-                <td>
-                    <a href="#" target="_blank">
-                        <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\dereotlu-pogaca.jpg"
-                            alt="Dereotlu Poğaça" style="width: 250px;">
-                    </a>
-                </td>
-                <td>
-                    <a href="#" target="_blank">
-                        <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\ev-yapimi-lahmacun-yapilisi-fotografi-6.jpg"
-                            alt="Lahmacun" style="width: 250px;">
-                    </a>
-                </td>
-                <td>
-                    <a href="#" target="_blank">
-                        <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\evde-pizza-tarifi-nasil-yapilir-12.jpg"
-                            alt="Pizza" style="width: 250px;">
-                    </a>
-                </td>
-                <td>
-                    <a href="#" target="_blank">
-                        <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\kolay-pankek-tarifi-15.jpg"
-                            alt="Pankek" style="width: 250px;">
-                    </a>
-                </td>
-                <td>
-                    <a href="#" target="_blank">
-                        <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\krep-tarifi-fotografi-1.jpg"
-                            alt="Krep" style="width: 250px;">
-                    </a>
-                </td>
-            </tr>
-            <tr style="vertical-align: top;">
-                <td>
-                    <a href="#" target="_blank" class="linkler">Dereotlu Poğaça</a>
-                </td>
-                <td>
-                    <a href="#" target="_blank" class="linkler">Lahmacun</a>
-                </td>
-                <td>
-                    <a href="#" target="_blank" class="linkler">Pizza</a>
-                </td>
-                <td>
-                    <a href="#" target="_blank" class="linkler">Pankek</a>
-                </td>
-                <td>
-                    <a href="#" target="_blank" class="linkler">Krep</a>
-                </td>
-            </tr>
-        </table>
+    <aside id="ortaliste">
+
+        <h3>Trend Tarifler</h3>
+        <div id="bir">
+            <a href="#" target="_blank">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\dereotlu-pogaca.jpg" alt="Dereotlu Poğaça">
+            </a>
+            <a href="#" target="_blank" class="linklerorta">Dereotlu Poğaça</a>
+        </div>
+        <div id="iki">
+            <a href="#" target="_blank">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\ev-yapimi-lahmacun-yapilisi-fotografi-6.jpg"
+                    alt="Lahmacun">
+            </a>
+            <a href="#" target="_blank" class="linklerorta">Lahmacun</a>
+        </div>
+        <div id="uc">
+            <a href="#" target="_blank">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\evde-pizza-tarifi-nasil-yapilir-12.jpg"
+                    alt="Pizza">
+            </a>
+            <a href="#" target="_blank" class="linklerorta">Pizza</a>
+        </div>
+        <div id="dort">
+            <a href="#" target="_blank">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\kolay-pankek-tarifi-15.jpg" alt="Pankek">
+            </a>
+            <a href="#" target="_blank" class="linklerorta">Pankek</a>
+        </div>
+        <div id="bes">
+            <a href="#" target="_blank">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\krep-tarifi-fotografi-1.jpg" alt="Krep">
+            </a>
+            <a href="#" target="_blank" class="linklerorta">Krep</a>
+        </div>
     </aside>
 
-    <main>
-        <table>
-            <tr>
-                <h2>Gelin Bohçası Tarifi</h2>
-                <hr>
-            </tr>
-            <tr>
-                <iframe width="950" height="700" src="https://www.youtube.com/embed/iJ-2ljGI71Q"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </tr>
-        </table>
-    </main>
+    <div id="icerik">
+        <h2>Gelin Bohçası Tarifi</h2>
+        <iframe src="https://www.youtube.com/embed/iJ-2ljGI71Q" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <!--burada da websitenin kategorilerinin olduğu nav var, diğer sayfalara ait linkleri sırasız liste olarak yerleştirdim. aside etiketini nav'ın ana parça olarak gözükmemesi için ekledim (seo)-->
+
+        <nav id="asidenav">
+            <ul>
+                <li>
+                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\tatlılar\tatlilar.html"
+                        class="linkler">Tatlılar</a>
+                </li>
+                <li>
+                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\etliler\etliyemekler.html" class="linkler">Etli
+                        Yemekler</a>
+                </li>
+                <li>
+                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\zeytinyaglılar.html"
+                        class="linkler">Zeytinyağlılar</a>
+                </li>
+                <li>
+                    <a href="C:\Users\Lenovo\Desktop\yemekseverler.com\hamurisi.html" class="linkler">Hamurişi</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
 
     <footer>
         <!--footer kısmını tablo ile düzenledim-->
@@ -153,67 +116,58 @@
         <!--üçüncü kısımda geri dönüş için inssanların mesaj atabileceği bir kısım yaptım. text, email formları kullandım. Geniş kutunun nasıl yapılacağını unuttum orası eksik-->
         <!--buradaki düğme düz submit-->
         <hr>
-        <table>
-            <tr style="vertical-align: top;">
-                <td>
-                    <nav>
-                        <label for="sosyalmedya">
-                            <h4>Sosyal Medya</h4>
-                        </label>
-                        <a href="#" target="_blank" id="sosyalmedya">
-                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\insta.png" alt="İnstagram"
-                                style="width: 80px;">
-                        </a>
-                        <a href="#" target="_blank" id="sosyalmedya">
-                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\face.png" alt="Facebook"
-                                style="width: 80px;">
-                        </a>
-                        <a href="#" target="_blank" id="sosyalmedya">
-                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\pinterest.png" alt="Pinterest"
-                                style="width: 80px;">
-                        </a>
-                        <a href="#" target="_blank" id="sosyalmedya">
-                            <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\youtube.png" alt="YouTube"
-                                style="width: 80px;">
-                        </a>
-                    </nav>
-                </td>
-                <td style="width: 15px;"></td>
-                <td>
-                    <section>
-                        <form action="#">
-                            <b>Email yazılarımıza abone olmak için</b>
-                            <div>
-                                <label for="eposta2">Emailiniz</label>
-                                <input type="email" id="eposta2" placeholder="Emailiniz">
-                            </div>
-                            <button type="submit" onclick="alert('Hoşgeldiniz')">Kayıt Ol!</button>
-                        </form>
-                    </section>
-                </td>
-                <td style="width: 15px;"></td>
-                <td>
-                    <section>
-                        <form action="#">
-                            <b>Geri dönüşlerinizi iletebilirsiniz!</b>
-                            <div>
-                                <label for="isim">İsminiz</label>
-                                <input type="text" id="isim" placeholder="İsminiz">
-                            </div>
-                            <div>
-                                <label for="eposta">Emailiniz</label>
-                                <input type="email" id="eposta" placeholder="Emailiniz">
-                            </div>
-                            <div>
-                                <label for="mesaj">Mesajınız</label>
-                                <input type="text" id="mesaj" placeholder="Mesajınız">
-                            </div>
-                            <button type="submit">Gönder</button>
-                        </form>
-                    </section>
-                </td>
-            </tr>
-        </table>
+
+        <nav class="sosyalmedyalinkleri">
+            <label for="sosyalmedya">
+                <h4>Sosyal Medya</h4>
+            </label>
+            <a href="#" target="_blank" id="sosyalmedya">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\insta.png" alt="İnstagram"
+                    style="width: 80px;">
+            </a>
+            <a href="#" target="_blank" id="sosyalmedya">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\face.png" alt="Facebook"
+                    style="width: 80px;">
+            </a>
+            <a href="#" target="_blank" id="sosyalmedya">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\pinterest.png" alt="Pinterest"
+                    style="width: 80px;">
+            </a>
+            <a href="#" target="_blank" id="sosyalmedya">
+                <img src="C:\Users\Lenovo\Desktop\yemekseverler.com\images\youtube.png" alt="YouTube"
+                    style="width: 80px;">
+            </a>
+        </nav>
+        <section class="aboneol">
+            <form action="#">
+                <b>Email yazılarımıza abone olmak için</b>
+                <div>
+                    <label for="eposta2">Emailiniz</label>
+                    <input type="email" id="eposta2" placeholder="Emailiniz">
+                </div>
+                <button type="submit" onclick="alert('Hoşgeldiniz')">Kayıt Ol!</button>
+            </form>
+        </section>
+
+        <section class="geridönüt">
+            <form action="#">
+                <b>Geri dönüşlerinizi iletebilirsiniz!</b>
+                <div>
+                    <label for="isim">İsminiz</label>
+                    <input type="text" id="isim" placeholder="İsminiz">
+                </div>
+                <div>
+                    <label for="eposta">Emailiniz</label>
+                    <input type="email" id="eposta" placeholder="Emailiniz">
+                </div>
+                <div>
+                    <label for="mesaj">Mesajınız</label>
+                    <input type="text" id="mesaj" placeholder="Mesajınız">
+                </div>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+
     </footer>
 
 </body>
